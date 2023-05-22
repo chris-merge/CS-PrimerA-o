@@ -1,0 +1,123 @@
+            body {
+                background-color: #A5C0DD;
+                width: auto;
+                height: auto;
+                margin: 0px, 0px, 0px, opx;
+            }
+            /* poneer en linea las li*/
+            
+            nav,
+            ul,
+            li {
+                /*poner en linea*/
+                display: inline-block;
+                /*quitar las de coraciones*/
+                text-decoration: none;
+                /*fuente*/
+                font-family: 'Courier New', Courier, monospace;
+            }
+            /* darle color a los li del nava */
+            
+            nav ul,
+            li {
+                color: black;
+                font-size: 12;
+                border-radius: 10px;
+                height: auto;
+            }
+            /* cambio de color al poner el mouse */
+            
+            nav ul>li:hover {
+                color: bisque;
+                background-color: #393646;
+                font-family: fantasy;
+                width: 150px;
+                height: auto;
+                justify-content: center;
+            }
+            /* mover los textos  al derecha */
+            
+            nav ul,
+            li {
+                display: flex;
+                justify-content: flex-end;
+            }
+            /* espacio entre los textos */
+            
+            ul ul,
+            li {
+                margin-right: 125px;
+            }
+            /*darle fondo al nav*/
+            
+            nav {
+                /* fondo  */
+                background-color: #BE6DB7;
+                /* alto */
+                height: 100%;
+                /* ancho */
+                width: 100%;
+                border-radius: 5px;
+                margin-top: -5px;
+            }
+            /* img del index */
+            /* img uno */
+            
+            .img1 {
+                width: 240px;
+                height: 400px;
+                border-radius: 25px;
+            }
+            /* img2 */
+            
+            .img2 {
+                width: 240px;
+                height: 400px;
+                border-radius: 25px;
+            }
+            
+            #contend_img>div {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #contend_img {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            #contend_img {
+                margin-top: 25px;
+            }
+            
+            table {
+                border: 1px solid rgb(110, 47, 47);
+            }
+            /*mover el footer*/
+            
+            footer div ol,
+            a {
+                display: inline-block;
+            }
+            /* mover los ol hacia la izquierda */
+            /* tamaño de la lista  */
+            
+            #footer,
+            ul {
+                height: 100%;
+                width: auto;
+                /* border: 1px solid red; */
+            }
+            /* mover los ul  */
+            
+            ul {
+                margin-left: 250px;
+            }
+            /* tamaño del footer */
+            
+            footer {
+                /* border: 1px solid black; */
+                width: 100%;
+                height: auto;
+            }
+            /* dimenciones de la tabla */
